@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>json on Even - A super concise theme for Hugo</title>
+    <link>https://www.lovefree.cc/tags/json/</link>
+    <description>Recent content in json on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 May 2019 08:53:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.lovefree.cc/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang原生json性能优化</title>
+      <link>https://www.lovefree.cc/posts/golang%E5%8E%9F%E7%94%9Fjson%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Tue, 28 May 2019 08:53:27 +0800</pubDate>
+      
+      <guid>https://www.lovefree.cc/posts/golang%E5%8E%9F%E7%94%9Fjson%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <description>golang 原生json性能优化 在之前的golang版本中，因为原生json包效率比较低，一直使用第三方包做json解析。 在go1.12.*版本中，测</description>
+    </item>
+    
+  </channel>
+</rss>
