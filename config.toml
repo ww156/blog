@@ -6,13 +6,13 @@ preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
-enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
-pygmentsOptions = "linenos=table"
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
+#pygmentsOptions = "linenos=table"
+#pygmentsCodefences = true
+#pygmentsUseClasses = true
+#pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
@@ -56,7 +56,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   since = "2017"            # Site creation time          # 站点建立时间
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
-  gitRepo = ""
+  gitRepo = "https://github.com/ww156/blog.git"
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Blog"        # default: the title value    # 默认值: 上面设置的title值
@@ -76,7 +76,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   moreMeta = true
 
   # Syntax highlighting by highlight.js
-  highlightInClient = false
+  highlightInClient = true
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
@@ -180,20 +180,20 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.social]                                         # 社交链接
     a-email = "mailto:1564413823@qq.com"
-    b-stack-overflow = "https://www.lovefree.cc"
-    c-twitter = "https://www.lovefree.cc"
-    d-facebook = "https://www.lovefree.cc"
-    e-linkedin = "https://www.lovefree.cc"
-    f-google = "https://www.lovefree.cc"
-    g-github = "https://www.lovefree.cc"
-    h-weibo = "https://www.lovefree.cc"
-    i-zhihu = "https://www.lovefree.cc"
-    j-douban = "https://www.lovefree.cc"
-    k-pocket = "https://www.lovefree.cc"
-    l-tumblr = "https://www.lovefree.cc"
-    m-instagram = "https://www.lovefree.cc"
-    n-gitlab = "https://www.lovefree.cc"
-    o-bilibili = "https://www.lovefree.cc"
+#    b-stack-overflow = "https://www.lovefree.cc"
+#    c-twitter = "https://www.lovefree.cc"
+#    d-facebook = "https://www.lovefree.cc"
+#    e-linkedin = "https://www.lovefree.cc"
+#    f-google = "https://www.lovefree.cc"
+    g-github = "https://github.com/ww156"
+#    h-weibo = "https://www.lovefree.cc"
+#    i-zhihu = "https://www.lovefree.cc"
+#    j-douban = "https://www.lovefree.cc"
+#    k-pocket = "https://www.lovefree.cc"
+#    l-tumblr = "https://www.lovefree.cc"
+#    m-instagram = "https://www.lovefree.cc"
+#    n-gitlab = "https://www.lovefree.cc"
+#    o-bilibili = "https://www.lovefree.cc"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
